@@ -13,6 +13,9 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile ("org.springframework:spring-core:4.3.18.RELEASE")
+    compile ("org.springframework:spring-webmvc:4.3.18.RELEASE")
+    compile ("javax.servlet:javax.servlet-api:3.0.1")
+    compile ("taglibs:standard:1.1.2")
+    testCompile("junit:junit:4.12")
 }
